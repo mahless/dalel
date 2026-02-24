@@ -40,9 +40,6 @@ export default function App() {
               <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight font-arabic drop-shadow-sm">
                 دليل الفنيين
               </h1>
-              <p className="text-sky-100 text-lg md:text-xl font-medium">
-                Industrial Machinery Catalog / دليل الماكينات الصناعية
-              </p>
             </motion.div>
 
             <motion.div
