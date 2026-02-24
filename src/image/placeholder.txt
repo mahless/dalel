@@ -1,0 +1,2 @@
+// Placeholder for the cooling bed image. 
+// In a real environment, you would replace this with your actual image file.
