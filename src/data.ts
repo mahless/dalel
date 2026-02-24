@@ -14,7 +14,7 @@ export const machines: Machine[] = [
     nameEn: "Cooling Bed",
     descAr: "الوظيفة: تبريد الأسياخ بعد الدرفلة لتفادي الالتواء وتقليل الإجهادات الداخلية.",
     descEn: "Function: Controlled cooling of rebars after rolling to avoid bending and residual stresses.",
-    image: "/src/image/1.jpeg"
+    image: "/image/1.jpeg"
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const machines: Machine[] = [
     nameEn: "Cooling Bed Rakes",
     descAr: "الوظيفة: حمل ونقل الأسياخ على سرير التبريد أثناء عملية التبريد.",
     descEn: "Function: Supports and transfers bars along the cooling bed.",
-    image: "/src/image/2.png"
+    image: "/image/2.png"
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const machines: Machine[] = [
    nameEn: "Leaning Up",
    descAr: "الوظيفة: عمل محاذاة للأسياخ على سرير التبريد قبل النقل.",
    descEn: "Function: Aligns bars on the cooling bed.",
-   image: "/src/image/3.jpeg"
+   image: "/image/3.jpeg"
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const machines: Machine[] = [
    nameEn: "Step by Step",
    descAr: "الوظيفة: نقل الأسياخ على دفعات منتظمة بدون تداخل.",
    descEn: "Function: Transfers bars in controlled batches without overlapping.",
-  image: "/src/image/4.jpeg"
+  image: "/image/4.jpeg"
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ export const machines: Machine[] = [
    nameEn: "Extraction Trolley",
    descAr: "الوظيفة: نقل الأسياخ من على سرير التبريد استعدادًا لعملية القطع.",
    descEn: "Function: Transfers bars from the cooling bed in preparation for cutting.",
-  image: "/src/image/5.jpeg"
+  image: "/image/5.jpeg"
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ export const machines: Machine[] = [
    nameEn: "Exit Roller Table",
    descAr: "الوظيفة: نقل الأسياخ على الرولات بعد الاستخراج أو القطع.",
    descEn: "Function: Moves bars on roller tables after extraction or cutting.",
-  image: "/src/image/6.jpeg"
+  image: "/image/6.jpeg"
   },
   {
     id: 7,
@@ -62,7 +62,7 @@ export const machines: Machine[] = [
    nameEn: "Magnetic Conveyor",
    descAr: "الوظيفة: نقل الأسياخ باستخدام نظام مغناطيسي.",
    descEn: "Function: Transfers bars using magnetic force.",
-  image: "/src/image/7.jpeg"
+  image: "/image/7.jpeg"
   },
   {
     id: 8,
@@ -70,7 +70,7 @@ export const machines: Machine[] = [
    nameEn: "Magnetic Bypass",
    descAr: "الوظيفة: نقل الأسياخ باستخدام رولات ممغنطة بدل البلاطات.",
    descEn: "Function: Transfers bars using magnetic rollers instead of magnetic plates.",
-  image: "/src/image/77.jpeg"
+  image: "/image/77.jpeg"
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ export const machines: Machine[] = [
     nameEn: "Measuring Roll",
     descAr: "قياس أطوال الأسياخ قبل القص لضبط الطول المطلوب.",
     descEn: "Measures bar length before cutting to ensure required length.",
-  image: "/src/image/8.jpeg"
+  image: "/image/8.jpeg"
   },
   {
     id: 10,
@@ -86,7 +86,7 @@ export const machines: Machine[] = [
     nameEn: "Entry Flap",
     descAr: "توجيه الأسياخ إلى المسار أو المعدّة التالية.",
     descEn: "Guides bars to the correct path or machine.",
-  image: "/src/image/9.jpeg"
+  image: "/image/9.jpeg"
   },
   {
     id: 11,
@@ -94,7 +94,7 @@ export const machines: Machine[] = [
     nameEn: "Pendulum Shear",
     descAr: "قص الأسياخ على الأطوال التجارية المطلوبة.",
     descEn: "Cuts rebars to commercial lengths using pendulum motion.",
-  image: "/src/image/11.jpeg"
+  image: "/image/11.jpeg"
   },
   {
     id: 12,
@@ -102,7 +102,7 @@ export const machines: Machine[] = [
     nameEn: "Extraction Cover",
     descAr: "نقل الأسياخ إلى منطقة الفحص وتجهيزها للتجميع.",
     descEn: "Transfers bars to inspection area and prepares them for bundling.",
-  image: "/src/image/12.jpeg"
+  image: "/image/12.jpeg"
   },
   {
     id: 13,
@@ -110,7 +110,7 @@ export const machines: Machine[] = [
     nameEn: "Double Leaning",
     descAr: "محاذاة مزدوجة للأسياخ قبل تكوين الباندل.",
     descEn: "Performs double alignment before bundling.",
-  image: "/src/image/13.png"
+  image: "/image/13.png"
   },
   {
     id: 14,
@@ -118,7 +118,7 @@ export const machines: Machine[] = [
     nameEn: "Inspection",
     descAr: "فحص الأسياخ بصريًا والتأكد من الجودة.",
     descEn: "Visual inspection and quality checking of bars.",
-  image: "/src/image/14.jpeg"
+  image: "/image/14.jpeg"
   },
   {
     id: 15,
@@ -126,7 +126,7 @@ export const machines: Machine[] = [
     nameEn: "Bar Counter",
     descAr: "عدّ عدد الأسياخ داخل كل باندل.",
     descEn: "Counts the number of bars per bundle.",
-  image: "/src/image/15.jpeg"
+  image: "/image/15.jpeg"
   },
   {
     id: 16,
@@ -134,7 +134,7 @@ export const machines: Machine[] = [
     nameEn: "Vertical Bucket",
     descAr: "رفع وتجميع الأسياخ رأسيًا قبل الربط.",
     descEn: "Lifts and stacks bars vertically before tying.",
-  image: "/src/image/16.jpeg"
+  image: "/image/16.jpeg"
   },
   {
     id: 17,
@@ -142,7 +142,7 @@ export const machines: Machine[] = [
     nameEn: "Compact",
     descAr: "ضغط وتجميع الأسياخ لإحكام عملية الربط.",
     descEn: "Compacts bars to ensure tight and stable bundling.",
-  image: "/src/image/17.jpeg"
+  image: "/image/17.jpeg"
   },
   {
     id: 18,
@@ -150,7 +150,7 @@ export const machines: Machine[] = [
     nameEn: "Tying Machines (4 Stations)",
     descAr: "ربط الباندلات أوتوماتيك باستخدام سلك معدني.",
     descEn: "Automatically ties bundles using steel wire.",
-  image: "/src/image/18.jpeg"
+  image: "/image/18.jpeg"
   },
   {
     id: 19,
@@ -158,7 +158,7 @@ export const machines: Machine[] = [
     nameEn: "Stopper",
     descAr: "إيقاف الباندلات عند نقطة محددة للتحكم في النقل.",
     descEn: "Stops bundles at a specific position for controlled transfer.",
-  image: "/src/image/19.jpeg"
+  image: "/image/19.jpeg"
   },
   {
     id: 20,
@@ -166,7 +166,7 @@ export const machines: Machine[] = [
     nameEn: "Bundle Weight",
     descAr: "وزن الباندل للتأكد من الوزن المطلوب داخله.",
     descEn: "Weighs the bundle to verify the required bundle weight.",
-  image: "/src/image/20.jpeg"
+  image: "/image/20.jpeg"
   },
   {
     id: 21,
@@ -174,7 +174,7 @@ export const machines: Machine[] = [
     nameEn: "Lift Table",
     descAr: "رفع الباندل لتسهيل التجميع أو النقل.",
     descEn: "Lifts bundles to facilitate stacking or transfer.",
-  image: "/src/image/21.jpeg"
+  image: "/image/21.jpeg"
   },
   {
     id: 22,
@@ -182,7 +182,7 @@ export const machines: Machine[] = [
     nameEn: "Collecting Area",
     descAr: "تجميع الباندلات النهائية للشحن أو التخزين.",
     descEn: "Collects finished bundles for storage or dispatch.",
-  image: "/src/image/22.jpeg"
+  image: "/image/22.jpeg"
   }
   
 ];
