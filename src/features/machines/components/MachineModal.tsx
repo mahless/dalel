@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
 import QuickPinchZoom, { make3dTransformValue } from 'react-quick-pinch-zoom';
 import { Machine } from '@/data';

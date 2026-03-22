@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { Machine } from '@/data';
 import { Maximize2 } from 'lucide-react';
 

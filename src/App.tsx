@@ -4,7 +4,7 @@ import { MachineCard, MachineCardSkeleton } from '@/features/machines/components
 import { MachineModal } from '@/features/machines/components/MachineModal';
 import { SearchBar } from '@/components/ui/SearchBar';
 import { Machine } from '@/data';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 
 export default function App() {
   const { data: machines, isLoading, error } = useMachines();
