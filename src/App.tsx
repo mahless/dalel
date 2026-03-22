@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { useMachines } from '@/features/machines/hooks/useMachines';
 import { MachineCard, MachineCardSkeleton } from '@/features/machines/components/MachineCard';
 import { MachineModal } from '@/features/machines/components/MachineModal';
@@ -21,10 +21,33 @@ export default function App() {
     );
   }, [machines, searchQuery]);
 
+  // Handle mobile back button to close modal
+  useEffect(() => {
+    const handlePopState = () => {
+      setSelectedMachine(null);
+    };
+
+    if (selectedMachine) {
+      window.history.pushState({ modal: true }, '');
+      window.addEventListener('popstate', handlePopState);
+    }
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, [selectedMachine]);
+
+  const handleCloseModal = () => {
+    if (selectedMachine) {
+      window.history.back();
+    }
+    setSelectedMachine(null);
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 font-sans selection:bg-sky-100 selection:text-sky-900">
       {/* Header Section */}
-      <div className="relative bg-gradient-to-br from-sky-400 to-blue-600 pb-24 pt-16 rounded-b-[3rem] shadow-xl overflow-hidden">
+      <div className="relative bg-gradient-to-br from-sky-400 to-blue-600 pb-16 pt-12 rounded-b-[2rem] shadow-xl overflow-hidden">
         {/* Decorative Circles */}
         <div className="absolute top-0 left-0 w-64 h-64 bg-white/10 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl" />
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-400/20 rounded-full translate-x-1/3 translate-y-1/3 blur-3xl" />
@@ -53,7 +76,7 @@ export default function App() {
         </div>
       </div>
 
-      <main className="container mx-auto px-4 py-12 max-w-7xl -mt-8">
+      <main className="container mx-auto px-4 py-12 max-w-7xl -mt-6">
         {/* Content Section */}
         <div>
           {error ? (
@@ -86,7 +109,7 @@ export default function App() {
 
       <MachineModal
         machine={selectedMachine}
-        onClose={() => setSelectedMachine(null)}
+        onClose={handleCloseModal}
       />
     </div>
   );
